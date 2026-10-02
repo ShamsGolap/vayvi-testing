@@ -6,15 +6,17 @@ Landing page publique du programme de test privé Android de Vayvi.
 
 https://shamsgolap.github.io/vayvi-testing/
 
-## Version actuellement présentée
+## Version affichée
 
-- Vayvi `0.2.3`
+La version n'est pas écrite en dur dans ce dépôt. La page récupère automatiquement la version publiée dans `vayvi-privacy`.
+
 - Android
 - Programme de test réservé aux personnes de 18 ans et plus
 
 ## Accès
 
-- Google Play : https://play.google.com/store/apps/details?id=com.golappstudio.vayvi
+- Activation du programme : https://play.google.com/apps/testing/com.golappstudio.vayvi
+- Installation Google Play : https://play.google.com/store/apps/details?id=com.golappstudio.vayvi
 - Les personnes qui ne sont pas encore inscrites peuvent demander leur ajout depuis la page ; le bouton prépare un e-mail vers `golappstudio.support@gmail.com`.
 - L'ajout au programme de test reste manuel côté Google Play Console.
 
