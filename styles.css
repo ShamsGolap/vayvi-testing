@@ -25,6 +25,12 @@ body {
   line-height: 1.6;
 }
 a { color: inherit; }
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid #9ea7ff;
+  outline-offset: 3px;
+}
+.card a:not(.button) { color: #3f4fc4; }
 .shell { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
 
 .hero {
@@ -99,7 +105,7 @@ h2 { font-size: clamp(2rem, 4vw, 3.15rem); line-height: 1.08; letter-spacing: -.
 .privacy-card p { max-width: 720px; margin-bottom: 0; }
 footer { background: var(--night); color: #aeb5d5; }
 .footer-inner { min-height: 118px; display: flex; align-items: center; gap: 24px; justify-content: space-between; }
-.footer-inner a { color: white; text-decoration: none; }
+.footer-inner a { color: white; text-decoration: none; overflow-wrap: anywhere; }
 .footer-brand { color: white; }
 
 @media (max-width: 860px) {
