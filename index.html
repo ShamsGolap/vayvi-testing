@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#11152b" />
+  <meta name="description" content="Guide officiel du programme de test fermé Android de Vayvi." />
+  <title>Vayvi — Programme de test fermé</title>
+  <link rel="icon" href="logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav shell" aria-label="Navigation principale">
+      <a class="brand" href="#top" aria-label="Vayvi — Accueil">
+        <img src="logo.svg" alt="" width="40" height="40" />
+        <span>Vayvi</span>
+      </a>
+      <a class="nav-link" href="#signaler">Signaler un problème</a>
+    </nav>
+
+    <div class="shell hero-grid" id="top">
+      <section>
+        <div class="status"><span class="dot"></span> Closed Testing Android</div>
+        <h1>Bienvenue dans le programme de test de Vayvi</h1>
+        <p class="lead">Merci de nous aider à préparer Vayvi avant sa publication. Votre mission : utiliser l’application comme vous le feriez naturellement, repérer ce qui fonctionne bien et nous signaler ce qui peut être amélioré.</p>
+        <div class="hero-actions">
+          <a class="button primary disabled" href="#rejoindre" aria-disabled="true">Lien de test bientôt disponible</a>
+          <a class="button secondary" href="#tester">Voir quoi tester</a>
+        </div>
+        <p class="microcopy">Version testée : <strong>Vayvi 0.2.3</strong> · build 6 · Android</p>
+      </section>
+
+      <aside class="hero-card" aria-label="Résumé du programme">
+        <div class="hero-card-title">Votre participation en 3 étapes</div>
+        <ol class="steps compact">
+          <li><span>1</span><div><strong>Rejoindre le test</strong><small>Avec le compte Google invité</small></div></li>
+          <li><span>2</span><div><strong>Utiliser Vayvi</strong><small>À plusieurs reprises pendant la période</small></div></li>
+          <li><span>3</span><div><strong>Partager vos retours</strong><small>Bugs, incompréhensions, idées</small></div></li>
+        </ol>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <section class="section shell" id="rejoindre">
+      <div class="section-heading">
+        <span class="eyebrow">01 · Installation</span>
+        <h2>Comment rejoindre le test</h2>
+        <p>Le programme est privé. Utilisez le compte Google dont l’adresse a été ajoutée à la liste des testeurs.</p>
+      </div>
+
+      <div class="cards three">
+        <article class="card numbered"><span class="number">1</span><h3>Ouvrez le lien d’invitation</h3><p>Le bouton d’accès sera activé ici dès que Google Play aura rendu la version disponible.</p></article>
+        <article class="card numbered"><span class="number">2</span><h3>Acceptez de devenir testeur</h3><p>Vérifiez que vous utilisez bien le compte Google invité, puis rejoignez le programme sur Google Play.</p></article>
+        <article class="card numbered"><span class="number">3</span><h3>Installez Vayvi</h3><p>Installez ou mettez à jour l’application depuis Google Play, puis gardez-la installée pendant la période de test.</p></article>
+      </div>
+
+      <div class="notice info">
+        <strong>Durée demandée</strong>
+        <p>Merci de rester inscrit au programme pendant <strong>au moins 14 jours</strong> et d’utiliser Vayvi plusieurs fois pendant cette période.</p>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="tester">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="eyebrow">02 · Scénario conseillé</span>
+          <h2>Ce que nous aimerions que vous testiez</h2>
+          <p>Pas besoin de tout faire d’un coup. L’objectif est surtout de parcourir plusieurs parties de l’application et de noter ce qui vous surprend.</p>
+        </div>
+
+        <div class="check-grid">
+          <label class="check"><input type="checkbox" /> <span>Terminer l’onboarding</span></label>
+          <label class="check"><input type="checkbox" /> <span>Créer une évaluation</span></label>
+          <label class="check"><input type="checkbox" /> <span>Tester plusieurs Green Flags et Red Flags</span></label>
+          <label class="check"><input type="checkbox" /> <span>Ouvrir les explications d’un Flag</span></label>
+          <label class="check"><input type="checkbox" /> <span>Finaliser une évaluation et lire le résultat</span></label>
+          <label class="check"><input type="checkbox" /> <span>Modifier une évaluation existante</span></label>
+          <label class="check"><input type="checkbox" /> <span>Parcourir Analyse</span></label>
+          <label class="check"><input type="checkbox" /> <span>Parcourir Décide</span></label>
+          <label class="check"><input type="checkbox" /> <span>Consulter Paramètres & confidentialité</span></label>
+          <label class="check"><input type="checkbox" /> <span>Tester la biométrie si votre appareil le permet</span></label>
+          <label class="check"><input type="checkbox" /> <span>Repérer les textes coupés ou difficiles à lire</span></label>
+          <label class="check"><input type="checkbox" /> <span>Vérifier qu’aucun écran ne plante ou ne bloque</span></label>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="split">
+        <div>
+          <span class="eyebrow">03 · Bonnes pratiques</span>
+          <h2>Quelques règles simples</h2>
+          <ul class="rules">
+            <li><span>✓</span><p>Utilisez de préférence des <strong>noms ou surnoms fictifs</strong> pendant le test.</p></li>
+            <li><span>✓</span><p>Ne saisissez pas d’informations personnelles inutiles pour tester l’application.</p></li>
+            <li><span>✓</span><p>Testez Vayvi comme une vraie application : navigation, retours arrière, reprises, modifications…</p></li>
+            <li><span>✓</span><p>Si quelque chose vous semble étrange, signalez-le même si l’application ne plante pas.</p></li>
+          </ul>
+        </div>
+
+        <aside class="notice warning">
+          <div class="notice-icon">!</div>
+          <div>
+            <strong>À propos des publicités</strong>
+            <p>Vayvi peut afficher des annonces dans cette version. Vous pouvez simplement vérifier qu’elles s’intègrent correctement à l’interface.</p>
+            <p><strong>Merci de ne pas cliquer volontairement sur les publicités dans le cadre du test.</strong></p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="signaler">
+      <div class="shell feedback-grid">
+        <div>
+          <span class="eyebrow">04 · Retours</span>
+          <h2>Un problème ? Dites-nous exactement ce qui s’est passé</h2>
+          <p>Une capture d’écran et quelques détails suffisent souvent pour reproduire un bug.</p>
+          <a class="button primary" href="mailto:golappstudio.support@gmail.com?subject=Vayvi%20-%20Retour%20Closed%20Testing&body=Téléphone%20%3A%0AVersion%20Android%20%3A%0AÉcran%20concerné%20%3A%0ACe%20que%20je%20faisais%20%3A%0ACe%20qui%20s'est%20passé%20%3A%0ACe%20que%20j'attendais%20%3A%0A%0ACapture%20d'écran%20si%20possible%20%3A">Envoyer un retour par e-mail</a>
+        </div>
+
+        <div class="report-template">
+          <div><span>Téléphone</span><em>Ex. Pixel 8, Galaxy S24…</em></div>
+          <div><span>Version Android</span><em>Ex. Android 15</em></div>
+          <div><span>Écran concerné</span><em>Ex. Résultat, Analyse…</em></div>
+          <div><span>Ce que je faisais</span><em>Les étapes juste avant le problème</em></div>
+          <div><span>Ce qui s’est passé</span><em>Bug, blocage, texte coupé…</em></div>
+          <div><span>Ce que j’attendais</span><em>Le comportement qui semblait logique</em></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="privacy-card">
+        <div>
+          <span class="eyebrow">Confidentialité</span>
+          <h2>Vos données de test restent sous votre contrôle</h2>
+          <p>Vayvi est conçu en local-first. Pour le test, privilégiez néanmoins des données fictives et consultez la politique de confidentialité pour le détail des traitements liés notamment à la publicité.</p>
+        </div>
+        <a class="button secondary dark" href="https://shamsgolap.github.io/vayvi-privacy/" target="_blank" rel="noopener">Politique de confidentialité</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <div class="brand footer-brand"><img src="logo.svg" alt="" width="34" height="34" /><span>Vayvi</span></div>
+      <p>Programme de test fermé Android · GolApp Studio</p>
+      <a href="mailto:golappstudio.support@gmail.com">golappstudio.support@gmail.com</a>
+    </div>
+  </footer>
+</body>
+</html>
