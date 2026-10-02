@@ -1,16 +1,31 @@
 # Vayvi Testing
 
-Landing page publique du programme de test fermé Android de Vayvi.
+Landing page publique du programme de test privé Android de Vayvi.
 
-## Publication GitHub Pages
+## Site public
 
-Configurer GitHub Pages sur la branche `main`, dossier `/ (root)`.
+https://shamsgolap.github.io/vayvi-testing/
 
-## Avant d'envoyer la page aux testeurs
+## Version actuellement présentée
 
-1. Remplacer le bouton désactivé « Lien de test bientôt disponible » dans `index.html` par le lien d'opt-in Google Play.
-2. Vérifier que la version affichée correspond à la release testée.
-3. Vérifier le lien vers la politique de confidentialité.
+- Vayvi `0.2.3`
+- Android
+- Programme de test réservé aux personnes de 18 ans et plus
+
+## Accès
+
+- Google Play : https://play.google.com/store/apps/details?id=com.golappstudio.vayvi
+- Les personnes qui ne sont pas encore inscrites peuvent demander leur ajout depuis la page ; le bouton prépare un e-mail vers `golappstudio.support@gmail.com`.
+- L'ajout au programme de test reste manuel côté Google Play Console.
+
+## Maintenance
+
+Lors d'une nouvelle version de test :
+
+1. mettre à jour la version affichée dans `index.html` ;
+2. vérifier le lien Google Play ;
+3. vérifier les instructions destinées aux testeurs ;
+4. vérifier le lien vers la politique de confidentialité.
 
 ## Liens
 
