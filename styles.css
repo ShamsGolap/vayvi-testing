@@ -46,6 +46,12 @@ input:focus-visible {
 .nav-link { text-decoration: none; color: #dfe2ff; font-weight: 700; font-size: .95rem; }
 .nav-link:hover { color: white; }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(320px, .75fr); gap: 56px; align-items: center; padding-top: 54px; }
+.hero-grid > *,
+.cards > *,
+.split > *,
+.feedback-grid > * {
+  min-width: 0;
+}
 .status { display: inline-flex; align-items: center; gap: 9px; padding: 7px 12px; border-radius: 999px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); color: #dfe4ff; font-size: .88rem; font-weight: 700; }
 .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 5px rgba(53,201,120,.12); }
 h1 { font-size: clamp(2.55rem, 6vw, 5.1rem); line-height: .98; letter-spacing: -.055em; max-width: 840px; margin: 24px 0 24px; }
