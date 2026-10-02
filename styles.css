@@ -126,3 +126,14 @@ footer { background: var(--night); color: #aeb5d5; }
   .button { width: 100%; }
   .hero-actions { flex-direction: column; }
 }
+
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .button {
+    transition: none;
+  }
+}
