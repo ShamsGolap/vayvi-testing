@@ -1,0 +1,23 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Signing keys and private certificates
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+*.pem
+
+# Service credentials
+credentials*.json
+service-account*.json
+google-services.json
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
