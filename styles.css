@@ -80,7 +80,16 @@ h2 { font-size: clamp(2rem, 4vw, 3.15rem); line-height: 1.08; letter-spacing: -.
 .card h3 { margin: 0 0 8px; font-size: 1.15rem; }
 .card p { margin: 0; }
 .notice { margin-top: 22px; border-radius: 18px; padding: 20px 22px; display: flex; gap: 16px; }
-.notice.info { background: var(--indigo-soft); color: #30396d; }
+.notice.info {
+  background: var(--indigo-soft);
+  color: #30396d;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.notice.info > * {
+  min-width: 0;
+}
 .notice.warning { background: var(--warning); border: 1px solid #f2d59a; margin: 0; }
 .notice p { margin: 4px 0 0; }
 .notice-icon { display: grid; place-items: center; width: 36px; height: 36px; flex: 0 0 36px; border-radius: 12px; background: #f6c65e; font-weight: 950; }
