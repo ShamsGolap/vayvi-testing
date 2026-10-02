@@ -20,9 +20,14 @@ https://shamsgolap.github.io/vayvi-testing/
 
 ## Maintenance
 
+La version affichée sur la page est synchronisée automatiquement depuis la politique publique Vayvi grâce à `version-sync.js`.
+
+Le script lit la mention `Version concernée : Vayvi X.Y.Z+N` depuis :
+https://shamsgolap.github.io/vayvi-privacy/
+
 Lors d'une nouvelle version de test :
 
-1. mettre à jour la version affichée dans `index.html` ;
+1. mettre à jour la version dans `vayvi-privacy` ;
 2. vérifier le lien Google Play ;
 3. vérifier les instructions destinées aux testeurs ;
 4. vérifier le lien vers la politique de confidentialité.
