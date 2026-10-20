@@ -8,5 +8,5 @@
     </linearGradient>
   </defs>
   <rect width="1024" height="1024" rx="320" fill="url(#vayvi-gradient)"/>
-  <path fill="#0C1120" d="M425.44 793.6H603.85L792.09 230.4H643.92L568.7 476.47C549.8 540.73 532.79 609.14 515.4 684.36C497.26 609.52 479.49 540.35 460.22 476.47L381.97 230.4H231.91Z"/>
+  <path d="M350 370 C402 480 456 580 504 644 Q512 655 520 644 C568 580 622 480 674 370" fill="none" stroke="#0C1120" stroke-width="102" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
