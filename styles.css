@@ -73,6 +73,36 @@ h1 { font-size: clamp(2.55rem, 6vw, 5.1rem); line-height: .98; letter-spacing: -
 .steps small { display: block; color: #bdc4e2; margin-top: 2px; }
 
 .section { padding: 88px 0; }
+#demander, #rejoindre { scroll-margin-top: 18px; }
+.request-section { padding-top: 38px; padding-bottom: 48px; }
+.request-panel {
+  background: #ffffff;
+  border: 2px solid #c5caff;
+  border-radius: 28px;
+  box-shadow: 0 22px 55px rgba(17, 21, 43, .15);
+  padding: clamp(24px, 4vw, 42px);
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(240px, .8fr);
+  gap: 34px;
+  align-items: center;
+}
+.request-panel:target, #demander:target .request-panel {
+  border-color: var(--indigo);
+  box-shadow: 0 0 0 5px rgba(89,103,233,.12), 0 22px 55px rgba(17,21,43,.15);
+}
+.request-copy h2 { max-width: 690px; }
+.request-copy > p { color: var(--muted); }
+.request-steps { margin: 18px 0 24px; padding-left: 24px; }
+.request-steps li { margin: 7px 0; padding-left: 4px; }
+.request-button { background: #4857cd; min-height: 52px; }
+.request-hint { font-size: .91rem; margin-top: 14px; }
+.request-side { background: #f0f1ff; border-radius: 18px; padding: 22px; color: #30396d; }
+.request-side strong { font-size: 1.2rem; }
+.request-side p { margin: 10px 0 18px; }
+.request-side .button { width: 100%; text-align: center; }
+.installation-backlink { margin: 22px 0 0; color: var(--muted); }
+.installation-backlink a { font-weight: 800; color: #3f4fc4; }
+
 .section-tint { background: #ececf7; }
 .section-heading { max-width: 740px; margin-bottom: 34px; }
 .eyebrow { display: inline-block; color: var(--indigo); text-transform: uppercase; letter-spacing: .12em; font-weight: 900; font-size: .76rem; }
@@ -126,6 +156,7 @@ footer { background: var(--night); color: #aeb5d5; }
 @media (max-width: 860px) {
   .hero-grid, .split, .feedback-grid { grid-template-columns: 1fr; }
   .hero-grid { gap: 34px; padding-top: 34px; }
+  .request-panel { grid-template-columns: 1fr; gap: 20px; }
   .cards.three { grid-template-columns: 1fr; }
   .check-grid { grid-template-columns: 1fr; }
   .privacy-card { align-items: flex-start; flex-direction: column; }
@@ -140,6 +171,9 @@ footer { background: var(--night); color: #aeb5d5; }
   .hero-card { padding: 20px; }
   .button { width: 100%; }
   .hero-actions { flex-direction: column; }
+  .request-section { padding-top: 24px; padding-bottom: 24px; }
+  .request-panel { padding: 20px 18px; }
+  .request-side { padding: 18px; }
 }
 
 
