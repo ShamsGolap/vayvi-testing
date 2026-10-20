@@ -1,7 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
   <title id="title">Vayvi</title>
-  <desc id="desc">Logo Vayvi, V vert et rouge sur fond bleu nuit.</desc>
-  <rect width="64" height="64" rx="16" fill="#18181F"/>
-  <path d="M15 18h10l7 23 7-23h10L37.7 49h-11.4L15 18Z" fill="#35C978"/>
-  <path d="M32 41 39 18h10L37.7 49h-5.9L32 41Z" fill="#F45B69"/>
+  <desc id="desc">V sombre sur un dégradé vert et indigo, comme sur le site GolApp Studio.</desc>
+  <defs>
+    <linearGradient id="vayvi-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#35C978"/>
+      <stop offset="1" stop-color="#7585FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="320" fill="url(#vayvi-gradient)"/>
+  <path fill="#0C1120" d="M425.44 793.6H603.85L792.09 230.4H643.92L568.7 476.47C549.8 540.73 532.79 609.14 515.4 684.36C497.26 609.52 479.49 540.35 460.22 476.47L381.97 230.4H231.91Z"/>
 </svg>
