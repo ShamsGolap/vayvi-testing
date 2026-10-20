@@ -17,7 +17,9 @@ La version n'est pas écrite en dur dans ce dépôt. La page récupère automati
 
 - Activation du programme : https://play.google.com/apps/testing/com.golappstudio.vayvi
 - Installation Google Play : https://play.google.com/store/apps/details?id=com.golappstudio.vayvi
-- Les personnes qui ne sont pas encore inscrites peuvent demander leur ajout depuis la page ; le bouton prépare un e-mail vers `golappstudio.support@gmail.com`.
+- **Demander à participer** est l’action principale du haut de page : elle amène à l’encart `#demander`, avant les étapes d’installation. L’encart fournit un e-mail prérempli vers `golappstudio.support@gmail.com`, puis explique l’attente de confirmation.
+- Le parcours **Je suis déjà inscrit** mène directement aux instructions d’activation Google Play.
+- L’inscription n’est jamais instantanée et aucun formulaire ni e-mail n’est envoyé automatiquement.
 - L'ajout au programme de test reste manuel côté Google Play Console.
 
 ## Maintenance
